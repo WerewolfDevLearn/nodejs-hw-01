@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "node learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/WerewolfDevLearn/nodejs-hw-01.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Mikhail Khodak <werewolfdevlearn@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WerewolfDevLearn/nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/WerewolfDevLearn/nodejs-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "yargs": "^17.7.2"
+  }
+}
